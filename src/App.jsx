@@ -1964,7 +1964,7 @@ const App = memo(() => {
         setValue: setWheelSensitivity,
       },
       keyboardNormalSeekSpeed: {
-        title: t('Timeline keyboard seek speed'),
+        title: t('Timeline keyboard seek speed ( Default: 1.50 ):'),
         value: keyboardNormalSeekSpeed,
         setValue: setKeyboardNormalSeekSpeed,
         min: 0,
